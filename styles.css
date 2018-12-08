@@ -66,10 +66,12 @@
    list-style-type: square;
  }
  #vanessa{
+   height: 150px;
    border-top:4px black dashed;
    position: relative;
+   display: block;
   }
-  #vanessa img{
+  #vanessa img:first-child{
     position: absolute;
   }
  h3{
@@ -92,4 +94,15 @@
    color: white;
    height: 40px;
    width: 150px;
+ }
+ #vanessa img:last-child{
+   position: absolute; 
+   top: 135px;
+   left: 400px;
+ }
+ footer{
+   border-top: #888888 solid 1px;
+   display: block;
+   text-align: center;
+   color: #888888;
  }
