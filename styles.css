@@ -40,8 +40,9 @@
  }
  #paper{
    position: relative;
-   font-size: 18px;
+   font-size: 25px;
    color:black;
+   line-height: 35px;
  }
  #ing1{
   position:absolute;
@@ -66,7 +67,29 @@
  }
  #vanessa{
    border-top:4px black dashed;
- }
+   position: relative;
+  }
+  #vanessa img{
+    position: absolute;
+  }
  h3{
+   position: absolute;
+   left: 100px;
+   top: 5px;
    font-size: 30px;
+ }
+ #vanessa p{
+   position: absolute;
+   width: 500px;
+   left: 100px;
+   top: 25px;
+ }
+ #vanessa button{
+   position: absolute;
+   left: 650px;
+   top: 25px;
+   background-color: red;
+   color: white;
+   height: 40px;
+   width: 150px;
  }
