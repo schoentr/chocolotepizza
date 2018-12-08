@@ -1,4 +1,72 @@
-h1{
-  font-size: 30px;
+
+#logos{
+  display:inline-block;
+ position: absolute;
+ top:15px;
+  left:675px;
+  border:1px solid black
+  }
+  h5{
+    font-size:13px;
+    color:#777;
+  }
   
+  header{
+    position: relative;
+    border-bottom: 4px dashed;
+  }
+  header h2{
+    position: absolute;
+    left:50px;
+    top:5px;
+    
+    vertical-align: top;
+    font-size: 20px;
+    display:inline-block;
+  }
+  header h6{
+    position: absolute; 
+    left:50px;
+    top:35px;
+    font-size: 10px;
+    display:inline-block;
+  }
+  h1{
+    font-size:50px;
+
+  }
+ #instructions{
+   width: 900px;
+ }
+ #paper{
+   position: relative;
+   font-size: 18px;
+   color:black;
+ }
+ #ing1{
+  position:absolute;
+  left:15px;
+  top:15px;
 }
+ #ing2{
+  position:absolute;
+  left:400px;
+  top:15px;
+}
+
+ #instructions p:last-child{
+   margin-bottom: 15px;
+ }
+ p {
+   padding-top:15px;
+ }
+ ul{
+   padding-left:50px;
+   list-style-type: square;
+ }
+ #vanessa{
+   border-top:4px black dashed;
+ }
+ h3{
+   font-size: 30px;
+ }
